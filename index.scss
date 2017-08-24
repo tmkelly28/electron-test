@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+}
+
+ul {
+  padding: 0px;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+
+  .col-2 {
+    background-color: #f0f0f0;
+    border-right: solid black 1px;
+    padding: 5px;
+  }
+
+  .col-10 {
+    background-color: #fff;
+    padding: 5px;
+  }
+}
+
+.dir {
+  color: blue;
+}
+
